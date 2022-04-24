@@ -1695,6 +1695,7 @@ namespace Project
             {
 
                 DateTime date = new DateTime();
+                //
                 date = DateTime.Now;
                 string documentName = "/Отчет " + name + " " + ".docx";
                 string documentFullPath = path + documentName;
